@@ -1,0 +1,28 @@
+@media only screen and (max-width:768px){
+    .container{
+        max-width: 700px;
+    }
+
+    header .logo{
+        max-width: 150px;
+    }
+
+    .three .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .four .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    footer .media{
+        width: 10px;
+    }
+
+    footer .finish{
+        font-size: 6px;
+        margin-top: 10px;
+    }
+}

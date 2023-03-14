@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(69, 95, 69);
+}
+
+header ul li{
+    display: inline;
+    margin-left: 25px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger i{
+   color: white;
+   font-size: 30px;
+}
+
+/* SECTION ONE */
+
+.one{
+    background-color: #ccc;
+}
+
+.one .custom-card{
+    box-shadow: 0 3px 5px 0 rgb(95, 92, 92);
+}
+
+.one h2{
+    text-align: center;
+}
+
+.one p{
+    text-align: center;
+}
+
+/* SECTION TWO */
+
+.two{
+    background-color: #eee;
+}
+
+/* SECTION THREE */
+
+.three,.three .photos{
+    background-color: #ccc;
+}
+
+.three .photos{
+    border:none;
+}
+
+.three .commun,.three .text1{
+    width:200px
+}
+
+.three a,.four a{
+    background-color: rgb(121, 118, 118);
+    border-color: rgb(114, 113, 113);
+    border-radius: 0;
+}
+
+/* SECTION FOUR */
+
+.four{
+    background-color: #eee;
+}
+
+.four .informa{
+    border: none;
+    background-color: #eee;
+    height: 250px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(69, 95, 69);
+}
+
+footer p{
+    color: white;
+}
