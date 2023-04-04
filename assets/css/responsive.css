@@ -1,10 +1,46 @@
+@media only screen and (max-width:992px){
+    .container{
+        max-width: 960px;
+    }
+
+    header .todo{
+        right: -250px;
+        width: 210px;
+        height: 250px;
+        border: 2px solid black;
+        box-shadow: 2px 0 5px 2px grey;
+        animation-name: list;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        display: none;
+    }
+
+    @keyframes list {
+        from{
+            right: -250px;
+        }
+        to{
+            right: 0;
+        }
+    }
+
+    header .todo.active{
+        display: block;
+    }
+
+    header .todo ul li{
+        display: block;
+        margin: 10px 5px;
+    }
+}
+
 @media only screen and (max-width:768px){
     .container{
         max-width: 700px;
     }
 
     header .logo{
-        max-width: 150px;
+        max-width: 250px;
     }
 
     .three .row{
@@ -24,5 +60,15 @@
     footer .finish{
         font-size: 6px;
         margin-top: 10px;
+    }
+
+    header .todo{
+        right: -100px;
+        width: 120px;
+        height: 170px;
+    }
+
+    header .todo ul li{
+        font-size: 10px;
     }
 }
